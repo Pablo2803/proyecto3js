@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <!-- Meta -->
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- Meta -->
+
+  <!-- Link -->
+  <link rel="stylesheet" href="./css/styles.css">
+  <!-- Link -->
+  <title>Tienda de Zapatillas</title>
+</head>
+
+<body>
+	<header>
+		<h1>Tienda</h1>
+
+		<div class="container-icon">
+			<div class="container-cart-icon">
+				<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor"
+					class="icon-cart">
+					<path stroke-linecap="round" stroke-linejoin="round"
+						d="M15.75 10.5V6a3.75 3.75 0 10-7.5 0v4.5m11.356-1.993l1.263 12c.07.665-.45 1.243-1.119 1.243H4.25a1.125 1.125 0 01-1.12-1.243l1.264-12A1.125 1.125 0 015.513 7.5h12.974c.576 0 1.059.435 1.119 1.007zM8.625 10.5a.375.375 0 11-.75 0 .375.375 0 01.75 0zm7.5 0a.375.375 0 11-.75 0 .375.375 0 01.75 0z" />
+				</svg>
+				<div class="count-products">
+					<span id="contador-productos">0</span>
+				</div>
+			</div>
+
+			<div class="container-cart-products hidden-cart">
+				<div class="row-product hidden">
+					<div class="cart-product">
+						<div class="info-cart-product">
+							<span class="cantidad-producto-carrito">1</span>
+							<p class="titulo-producto-carrito">ZAPATILLAS ULTRABOOST DNA X ARGENTINA</p>
+							<span class="precio-producto-carrito">$52999</span>
+						</div>
+						<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+							stroke="currentColor" class="icon-close">
+							<path stroke-linecap="round" stroke-linejoin="round" d="M6 18L18 6M6 6l12 12" />
+						</svg>
+					</div>
+				</div>
+
+				<div class="cart-total hidden">
+					<h3>Total:</h3>
+					<span class="total-pagar">$200</span>
+				</div>
+				<p class="cart-empty">El carrito está vacío</p>
+			</div>
+		</div>
+	</header>
+	<div class="container-items">
+		<div class="item">
+			<figure>
+				<img
+					src="https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/09c5ea6df1bd4be6baaaac5e003e7047_9366/Zapatillas_Forum_Low_Blanco_FY7756_01_standard.jpg" />
+			</figure>
+			<div class="info-product">
+				<h2>Zapatillas Forum Low</h2>
+				<p class="price">$36999</p>
+				<button class="btn-add-cart">Añadir al carrito</button>
+			</div>
+		</div>
+		<div class="item">
+			<figure>
+				<img
+					src="https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/b2973c3a0f114f59842fae9e0118100a_9366/Zapatillas_Retropy_F2_Verde_GX4638_01_standard.jpg" />
+			</figure>
+			<div class="info-product">
+				<h2>Zapatillas Retropy F2</h2>
+				<p class="price">$34999</p>
+				<button class="btn-add-cart">Añadir al carrito</button>
+			</div>
+		</div>
+		<div class="item">
+			<figure>
+				<img
+					src="https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/c457fe657399433ca28bacd3010d337d_9366/Zapatillas_Superstar_Blanco_GV7671_01_standard.jpg" />
+			</figure>
+			<div class="info-product">
+				<h2>Zapatillas Superstar</h2>
+				<p class="price">$31999</p>
+				<button class="btn-add-cart">Añadir al carrito</button>
+			</div>
+		</div>
+		<div class="item">
+			<figure>
+				<img
+					src="https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/732a698f2f584b3c8140ab3b00a02e05_9366/Zapatillas_Team_Court_Blanco_EF6052_01_standard.jpg" />
+			</figure>
+			<div class="info-product">
+				<h2>Zapatillas Team Court </h2>
+				<p class="price">$15999</p>
+				<button class="btn-add-cart">Añadir al carrito</button>
+			</div>
+		</div>
+		<div class="item">
+			<figure>
+				<img
+					src="https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/0bac1cf737d14f14a3feae89001c9161_9366/Zapatillas_Galaxy_6_Blanco_GX7256_01_standard.jpg"
+					alt="producto" />
+			</figure>
+			<div class="info-product">
+				<h2>Zapatillas Galaxy 6</h2>
+				<p class="price">$18999</p>
+				<button class="btn-add-cart">Añadir al carrito</button>
+			</div>
+		</div>
+	</div>
+
+	<script src="app.js"></script>
+</body>
+
+</html>
